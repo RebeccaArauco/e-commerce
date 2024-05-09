@@ -1,0 +1,29 @@
+.homePage__filters {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.homePage__filtername {
+    display: flex;
+}
+.homePage__btn::before {
+    content: 'Dark';
+}
+.dark .homePage__btn::before {
+    content: 'Light';
+}
+.homePage__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.homePage__search {
+    background-color: #F85555;
+    color: white;
+    
+}

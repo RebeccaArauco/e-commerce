@@ -1,0 +1,21 @@
+.navBar {
+    padding: 10px 20px;
+    border: 2px solid;
+    border-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+}
+.navBar__titleLink {
+    color: #F85555;
+}
+.navBar__itemLink {
+    color: #A8A8A8;
+    font-size: 30px;
+    
+}
+.navBar__list {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,45 @@
+.logout__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.logout__btn {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #F85555;
+    border: none;
+}
+.login__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+.login__msg {
+    font-size: 30px;
+    padding: 20px;
+    color: gray;
+}
+.login__form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: gray;
+}
+.login__formit {
+    padding: 20px;
+    gap: 10px;
+}
+.login__btn {
+    margin-top: 20px;
+    width: 250px;
+    height: 35px;
+    background-color: #F85555;
+    color: white;
+    border: none;
+
+}
