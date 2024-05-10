@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import useAuth from '../hooks/useAuth';
+import './styles/register.css'
 
 const Register = () => {
 
@@ -23,8 +24,10 @@ const Register = () => {
 
 
   return (
-    <div>
-      <form onSubmit={handleSubmit(submit)}>
+      
+    <div className='register__container'>
+    <div><h1>Welcome! Sign up here </h1></div>
+      <form className='register__form' onSubmit={handleSubmit(submit)}>
         <div>
           <label htmlFor="firstName">First Name</label>
           <input {...register('firstName')} id='firstName' type="text" />
@@ -45,9 +48,10 @@ const Register = () => {
           <label htmlFor="phone">Phone</label>
           <input {...register('phone')} id='phone' type="text" />
         </div>
-        <button>Register</button>
+        <button className='register__btn'>Register</button>
       </form>
     </div>
+  
   )
 }
 
